@@ -1,0 +1,15 @@
+{
+  "name": "udacity-supplychain-gyutaec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gyutae Choi inherithandle@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.4.5",
+    "truffle": "^4.1.15"
+  }
+}
