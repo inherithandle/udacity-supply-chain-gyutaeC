@@ -4,12 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"packaging": "cpx \"truffle-project/src/**/*.{html,css,js,png,jpg}\" truffle-project/dist/ && cpx \"truffle-project/build/contracts/*.json\" truffle-project/dist/contracts",
+	"truffle-build": "node_modules/truffle/build/cli.bundled.js compile",
+	"truffle-deploy": "node_modules/truffle/build/cli.bundled.js migrate --reset",
+    "start": "lite-server",
+	"clean": "rm -rf truffle-project/dist truffle-project/build/contracts"
   },
   "author": "Gyutae Choi inherithandle@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "cpx": "^1.5.0",
     "ganache-cli": "^6.4.5",
     "truffle": "^4.1.15"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.3"
   }
 }
