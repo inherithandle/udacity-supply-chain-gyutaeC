@@ -1,6 +1,9 @@
 # Created by https://www.gitignore.io/api/node,webstorm,solidity,webstorm+all,soliditytruffle
 # Edit at https://www.gitignore.io/?templates=node,webstorm,solidity,webstorm+all,soliditytruffle
 
+### user defined ###
+truffle_project/dist/
+
 ### Node ###
 # Logs
 logs
