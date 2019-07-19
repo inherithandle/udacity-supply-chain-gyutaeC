@@ -5,7 +5,7 @@ diagrams is in /diagrams
 * Truffle 4.1.15
 * ganache-cli 6.4.5
 * truffle-contract.js from Starter code for Coffee Supply Chain
-* all libraries can be installed via npm install or comes via the git clone command.
+* all libraries can be installed via npm install or come via the git clone command.
 
 ### Test smart contract code coverage
 All methods on SupplyChain.sol are tested on truffle-project/test/TestSupplychain.js
@@ -14,11 +14,11 @@ All methods on SupplyChain.sol are tested on truffle-project/test/TestSupplychai
 contract address:
 
 ### My transaction history on Rinkeby
-* Harvested - 0x7c6e4ae9b22041c34ee93708ada7016494421b1c7bd7260440fd05773d1e31ab
-* Steamed - 0xb07d09f6a9e216790a2196ef557bb3719eeb7d9adf405d02754e909ab78a9b6d
-* DriedOut - 0x2d53468c5be277ca24c56f68c11d90699532ec548068b74389f01a1f22daaad6
-* ForSale - 0x9e40ddfaed95c2e15db6ef732ca1b11372e8c5debcb8f12f72adf08157d33d55
-* Sold - 0x6864108ae592ab76ae34e295df0a1e5621485fa6074af0326712295a7e29664e
-* Shipped - 0x2fc3ab6b82ee9b7ae3a9c08438cdb37f2ccaf5e9c2e7f16977d0baf7a1ecb7fb
-* Received - 0xf68a4ebcdd98195d407e64530abb50aa7df92c41ab19b215832296825f63edf4
-* Purchased - 0x756c89b69ef1e27a25eb2908c585dfc7008c866834062bfdf7785b7a52594ac3
+* Harvested - 0x44663bb013f7910b8f63a4890d192b95b43d3735e9e328a84e36487590167103
+* Steamed - 0xcc1e69e55ef4dc80038fe466c2babcb34e6082efd943d37894ad64969ce7ad90
+* DriedOut - 0x494e313b4494e97f27bc77c0ba3914609ec3d7fb9121ee3909bd1169d2b64d16
+* ForSale - 0x412522e0824dae7eb7fa13d40580d6776fdde6548d5aab4794310c7e8380cdca
+* Sold - 0x56cbbd1f4d179772232d03e633193d4abfd9850a2c75bb1e058a2aeb89ebbf52
+* Shipped - 0x4bcc9b599145908130d165602dbf248e3a8cabf4fc153812bfb42e76bac40a58
+* Received - 0xa20b2d593ba848e0c4ca0ac362cc0d73ec90d8c8e517ce80d9c3b3849e8271bb
+* Purchased - 0x51216b00341248460a5dd3138ef03ef32157e07baf848fa070d03f65a20f057b
